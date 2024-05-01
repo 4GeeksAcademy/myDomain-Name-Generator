@@ -21,15 +21,27 @@ let domain = ['.com', '.gal'];
     
 } */
     //Con ForEach
-     pronoun.forEach(function(word){
-        adj.forEach(function(adj){
-            noun.forEach(function(noun){
-                domain.forEach(function(domain){
-                    console.log(word + adj + noun+ domain);
+    /* pronoun.forEach(function(word){
+    adj.forEach(function(adj){
+        noun.forEach(function(noun){
+    domain.forEach(function(domain){
+         console.log(word + adj + noun+ domain);
                 })
             })
         })
     });
+*/
+
+//Con ForEach función flecha
+    pronoun.forEach(word => {
+     adj.forEach(adj => {
+            noun.forEach(noun => {
+                domain.forEach(domain => {
+                    console.log(word + adj + noun + domain);
+                })
+            })
+        })
+    })
 
     
     
